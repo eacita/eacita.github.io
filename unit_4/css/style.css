@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto');
+
 body {
 	color: #337BFF;
 	text-align: center;
 	font-size: 30px;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
 
  }
 
@@ -10,6 +14,7 @@ h1 {
 	font-style: bold;
 	font-size: 55px;
 	color: #337BFF;
+	font-family: 'Bree serif', serif;
 
 }
 
@@ -26,8 +31,8 @@ ul {
 
 #slogan { 
 	text-align: center;
-	font-style: italic;
 	font-size: 30px;
+
 
  }
 
