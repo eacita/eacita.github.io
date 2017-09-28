@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto');
 
 body {
-	color: #337BFF;
+	color: #678BFF;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2.5em;
 	line-height: 1.5em;
 	font-family: 'Roboto', sans-serif;
 
@@ -12,22 +12,24 @@ body {
 h1 {
 	text-align: center;
 	font-style: bold;
-	font-size: 55px;
-	color: #337BFF;
+	font-size: 2.8em;
+	color: #678BFF;
 	font-family: 'Bree serif', serif;
 
 }
 
 header {
-    background-color: #FFED74;
-    border: 1px black solid;
+    background-color: #FEFFD0;
     padding: 20px;
 }
 
 nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+    background-color: #FEFFD0;
+    padding: 40px;
+    font-size: .8em;
+    letter-spacing: 2px;
+    word-spacing: 40px;
+  
 }
 
 nav a:hover {
@@ -36,32 +38,37 @@ nav a:hover {
 }
 
 article {
-    background-color: #E89C6C;
-    border: 1px black solid;
+    background-color: #FEFFD0;
     padding: 20px;
 
 }
 
-#two_column {
-	background-color: #FFB7CF;
-    border: 1px black solid;
+#three_column {
+	background-color: #FEFFD0;
+	color: #678BFF;
     padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
-	border: 1px black solid;
+	background-color: #FEFFD0;
+	color: #678BFF;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#center {
+	background-color: #FEFFD0;
 	padding: 20px;
 	float: left;
 	width: 30%;
 }
 
 #right {
-	background-color: #E55B88;
-	border: 1 px solid black;
+	background-color: #FEFFD0;
 	padding: 20px;
-	float: right;
-	width: 62%;
+	float: left;
+	width: 30%;
 
 }
 
@@ -76,14 +83,14 @@ article {
     }
 
 img {
-width: 600px;
+width: 80%;
 image-rendering: center;
 
 }
 
-ul {
-	list-style: none;
-
+img #thailand {
+	width: 80%
+	image-rendering: center;
 }
 
 #slogan { 
@@ -93,11 +100,15 @@ ul {
  }
 
 footer {
-    background-color: #FF957E;
-    border: 1px black solid;
+    background-color: #FEFFD0;
     padding: 20px;
 }
 
+@media screen only and (max-width: 1076px) and (min-width: 525px){
+	img {
+width: 80%;
+image-rendering: center;
 
+}
 
 
