@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto');
+
+body {
+	background-color: #fcfcfc;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+
+ }
+
+h1 {
+	text-align: center;
+	font-style: bold;
+	font-size: 2em;
+	color: #678BFF;
+	font-family: 'Bree serif', serif;
+
+}
+
+header {
+    background-color: #fcfcfc;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: #fcfcfc;
+    font-size: .8em;
+    letter-spacing: 2px;
+    padding: 20px; 
+}
+
+nav a:hover {
+   opacity: 0.5;
+
+}
+
+nav a {
+	margin: 10px;
+	padding: 10px;
+}
+
+.column:hover {
+	opacity: 0.5;
+
+}
+
+#three_column {
+	background-color: #fcfcfc;
+	color: #fcfcfc;
+	text-transform: uppercase;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.column{
+	padding: 10px;
+	float: left;
+	width: 30%;
+	position: relative;
+}
+
+.column p {
+	position: absolute;
+	left: 0;
+	right:0;
+	margin: 0 auto;
+	top: 35%;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img {
+width: 80%;
+image-rendering: center;
+
+}
+
+footer {
+    background-color: #fcfcfc;
+    padding: 10px;
+    color: #678BFF;
+    font-size: .6em;
+	font-family: 'Bree serif', serif;
+}
+
+@media screen and (max-width: 810px) {
+	.column p {font-size: 18px;}
+}
+
+@media screen and (max-width: 523px) {
+	.column {width: 45%;}
+	nav a {display:block}
+}
+
+
